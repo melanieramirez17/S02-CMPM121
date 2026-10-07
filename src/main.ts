@@ -33,7 +33,7 @@ secondButton.addEventListener("click", () => {
   console.log(alert("Ouch"));
 });
 
-// When pressed the button changes to blue
+// When pressed the button changes to blue!
 if (myButton) {
   myButton.addEventListener("click", (): void => {
     myButton.style.backgroundColor = "blue";
